@@ -1,12 +1,6 @@
-#from bokeh.layouts import row, column, gridplot
-#from bokeh.embed import server_document
-from bokeh.models import ColumnDataSource, Slider
-from bokeh.plotting import Figure, ColumnDataSource
-#from bokeh.server.server import Server
-
 from bokeh.models import Slider, CustomJS
 from bokeh.layouts import row, column
-from bokeh.plotting import Figure, output_notebook, show, ColumnDataSource
+from bokeh.plotting import Figure, ColumnDataSource
 from bokeh.models.widgets import Button, TextInput
 
 
